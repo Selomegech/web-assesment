@@ -38,12 +38,12 @@ The project uses the following API endpoints:
 
 
 ![Blog List Page](Screenshots/A1.PNG) 
-![Blog List Page](Screenshots/A1.5.png) 
-![Blog List Page](A2.PNG) 
-![Blog List Page](B1.PNG) 
-![Blog List Page](B2.PNG) 
-![Blog List Page](B3.PNG) 
-![Blog List Page](B4.PNG) 
+![Blog List Page](Screenshots/A1.5.PNG) 
+![Blog List Page](Screenshots/A2.PNG) 
+![Blog List Page](Screenshots/B1.PNG) 
+![Blog List Page](Screenshots/B2.PNG) 
+![Blog List Page](Screenshots/B3.PNG) 
+![Blog List Page](Screenshots/B4.PNG) 
 
 
 ## Future Improvements
