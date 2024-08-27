@@ -37,8 +37,8 @@ The project uses the following API endpoints:
 ## Screenshots
 
 
-![Blog List Page](A1.PNG) 
-![Blog List Page](A1.5.PNG) 
+![Blog List Page](Screenshots/A1.PNG) 
+![Blog List Page](Screenshots/A1.5.png) 
 ![Blog List Page](A2.PNG) 
 ![Blog List Page](B1.PNG) 
 ![Blog List Page](B2.PNG) 
