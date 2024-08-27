@@ -1,15 +1,14 @@
 'use client';
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat} from "next/font/google";
 import "./globals.css";
 import { ReactNode } from 'react';
 import { Provider } from 'react-redux';
 import store from '../store';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-const inter = Inter({ subsets: ["latin"] });
 
-
+const inter = Montserrat({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -18,10 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Provider store={store}>
-          <Header/>
-          <Footer/>
+          <Header />
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </Provider>
       </body>
     </html>

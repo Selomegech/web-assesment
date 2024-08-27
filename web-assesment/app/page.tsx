@@ -1,9 +1,15 @@
+'use client';
 import Image from "next/image";
 import BlogList from "@/components/BlogList";
+import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
+
 export default function Home() {
-  return (
-    <main>
-      <BlogList />
-    </main>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push('/blogs');
+  }, [router]);
+
+  return null;
 }

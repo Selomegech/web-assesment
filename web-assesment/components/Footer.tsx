@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import '@fortawesome/fontawesome-free/css/all.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter , faFacebookSquare, faYoutube, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
-
 const Footer = () => {
   return (
-    <div className='p-12'>
+    <div className='pt-24 pb-12 px-12'>
       <div className=' flex justify-between'>
         <div>
         <Image
@@ -45,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-b-2 border-blue-950 my-4 opacity-20"></div>
-      <div className='flex justify-between'>
+      <div className='flex justify-between px-6'>
         <p className='py-4'>©  2020 Africa to Silicon Valley, Inc. All right reserved</p>
         <div className='flex gap-6 py-4'>
         <FontAwesomeIcon icon={faTwitter} />

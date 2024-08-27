@@ -36,7 +36,10 @@ const initialState: BlogState = {
 };
 
 export const fetchBlog = createAsyncThunk('blog/fetchBlog', async (id: string) => {
-  const response = await fetch(`/api/blogs/${id}`);
+  const response = await fetch(`https://a2sv-backend.onrender.com/api/blogs/${id}`);
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
   const data = await response.json();
   return data;
 });
