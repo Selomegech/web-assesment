@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog Website
+
+This is a blog website built using Next.js, Redux, and Tailwind CSS. The project includes a blog list page and a blog detail page, along with pagination and search functionality.
+
+
+
+## Features
+
+- Blog list page with pagination and search functionality
+- Blog detail page with full content and related metadata
+- State management with Redux
+- TypeScript for type-safety
+- Font Awesome icons for visual elements
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-rendered and static websites.
+- **Redux**: A predictable state container for managing the application state.
+- **Tailwind CSS**: A utility-first CSS framework for quickly building custom designs.
+- **TypeScript**: A superset of JavaScript that adds optional static typing.
+- **Font Awesome**: An icon library for adding visual elements to the website.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/your-username/blog-website.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open the application in your browser: `http://localhost:3000`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## API Endpoints
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project uses the following API endpoints:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Blog List**: `GET /api/blogs`
+- **Blog Detail**: `GET /api/blogs/{id}`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+![Blog List Page](Screenshots/A1.PNG) 
+![Blog List Page](Screenshots/A1.5.png) 
+![Blog List Page](A2.PNG) 
+![Blog List Page](B1.PNG) 
+![Blog List Page](B2.PNG) 
+![Blog List Page](B3.PNG) 
+![Blog List Page](B4.PNG) 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Future Improvements
 
-## Deploy on Vercel
+- Implement user authentication and authorization
+- Add a comment section for each blog post
+- Integrate a content management system (CMS) for easier blog post management
+- Improve the search functionality with more advanced filtering options
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions or feedback, please feel free to contact me at [selomegech@gmail.com].
