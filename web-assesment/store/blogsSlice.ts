@@ -4,9 +4,24 @@ import { RootState } from '.';
 
 // Define the shape of your blog data
 interface Blog {
-  id: string;
-  title: string;
-  content: string;
+    _id: string;
+    image: string;
+    title: string;
+    description: string;
+    author: {
+      _id: string;
+      name: string;
+      email: string;
+      image: string;
+      role: string;
+    } | null;
+    isPending: boolean;
+    tags: string[];
+    likes: number;
+    relatedBlogs: string[];
+    skills: string[];
+    createdAt: string;
+    updatedAt: string;
   // Add any other properties your blog has
 }
 
