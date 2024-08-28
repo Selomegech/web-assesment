@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import images from '../public/assets/images.png'
-const header = () => {
+const Header = () => {
   const [activeLink, setActiveLink] = useState('Home');
   
   const menuItems = [
@@ -58,4 +58,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
